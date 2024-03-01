@@ -1,0 +1,38 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgba(10,0,255,1) 0%, rgba(2,0,36,1) 0%, rgba(106,106,250,1) 0%, rgba(106,106,250,1) 100%);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#score {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+#planet {
+  width: 200px;
+  height: 200px;
+  background-image: url('/scr/assets/World.png');
+  background-size: cover;
+  margin: 20px auto;
+  cursor: pointer;
+}
+#upgradeButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+header p{
+  font-size: 25px;
+}
+.valor{
+  font-size: 20px;
+}
+@media(max-width:600px){
+  .buy{
+      padding-top: 300px;
+  }
+}
